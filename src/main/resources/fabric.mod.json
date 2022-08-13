@@ -8,8 +8,8 @@
     "grial"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://grial.tech/",
+    "sources": "https://github.com/grialion/item-lores-fabric"
   },
   "license": "CC0-1.0",
   "icon": "assets/itemlores/itemlores.png",
