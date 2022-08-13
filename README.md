@@ -1,4 +1,6 @@
-# Fabric Example Mod
+# Item lores (fabric)
+
+A mod for 1.19 to view / copy / edit (client side) item lores in a GUI.
 
 ## Setup
 

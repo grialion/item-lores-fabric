@@ -1,31 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "item-lores",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Item Lores",
+  "description": "A mod for 1.19 to view / copy / edit (client side) item lores in a GUI.",
   "authors": [
-    "Me!"
+    "grial"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
-
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
+  "icon": "assets/itemlores/itemlores.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "tech.grial.itemlores.ItemLores"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "itemlores.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.14.6",
     "fabric": "*",
